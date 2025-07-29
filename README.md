@@ -1,12 +1,79 @@
-# React + Vite
+📘 Knovia AI: Revise Smarter with AI
+Knovia AI is an educational platform for KCSE and early university students that blends clean, responsive UI with AI-powered revision tools. The upcoming backend will unlock even more personalized features, user accounts, and dynamic data handling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+Coming soon...
 
-Currently, two official plugins are available:
+🌟 Features
+✅ Frontend
+🤖 AI-driven revision tips
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📚 Search by topic, author, or question type
 
-## Expanding the ESLint configuration
+📱 Responsive design with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎯 Motivational hero section with animations
+
+🌙 Dark overlay for readability
+
+📩 Newsletter opt-in and contact links
+
+🔧 Upcoming Backend
+👤 User authentication (JWT-based login/signup)
+
+📊 Progress tracking with user-specific data
+
+🧵 Revision history and personalized suggestions
+
+🗂️ MongoDB-powered database for dynamic content
+
+⚡ Secure API endpoints built with Express.js
+
+🧱 Tech Stack
+Layer	Tools
+Frontend	React.js, Tailwind CSS, Vite, GitHub Pages
+Routing	React Router DOM (HashRouter)
+Backend	Node.js, Express.js, MongoDB (coming soon)
+Auth	JSON Web Tokens (JWT)
+Database	MongoDB with Mongoose
+🛠️ Installation
+bash
+# Clone the repo
+git clone https://github.com/yourusername/knovia-ai.git
+cd knovia-ai
+
+# Install dependencies
+npm install
+
+# Run frontend
+npm run dev
+Backend setup instructions will be added once API integration begins.
+
+📁 Folder Structure
+knovia-ai/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   ├── index.css
+│   └── main.jsx
+├── server/               # Coming soon
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── server.js
+├── public/
+│   └── logo.png
+├── package.json
+├── README.md
+🎨 Design Highlights
+Sleek UI/UX with engaging animations
+
+Seamless navigation across devices
+
+“Learn with AI” button for strong call-to-action
+
+🙌 Credits
+Crafted by Jacob Sihul A project that makes revision smarter, cleaner, and more effective — powered by modern web technologies.
