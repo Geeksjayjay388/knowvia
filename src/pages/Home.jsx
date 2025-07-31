@@ -1,6 +1,7 @@
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import '../index.css'; // make sure your CSS file imports this animation if needed
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -21,9 +22,12 @@ function Home() {
            <p className="text-2xl font-bold text-white fade-in-delay">
              Save time, Readless, Perform well
         </p>
-           <button className="px-6 py-3 bg-gray-900 font-bold text-white rounded-lg hover:bg-white hover:text-black transition fade-in-delay">
+        <Link to="/syllabus">
+         <button className="px-7 py-4 bg-gray-900 font-bold text-white rounded-lg hover:bg-white hover:text-black transition fade-in-delay text-lg">
              Learn with AI
            </button>
+        </Link>
+           
 
         </section>
       </section>
